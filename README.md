@@ -46,6 +46,36 @@ Users can also attach supporting files to their issue reports.
 
 ---
 
+## Local Events and Announcements
+
+Users can search and browse local events and announcements based on categories and dates.
+
+### Event Search by Category
+
+The application displays events filtered by category with search functionality:
+
+![Search Sports Events](images/event1.png)
+
+### Multiple Event Results
+
+When searching for events, multiple results are displayed in a detailed list view:
+
+![Multiple Sports Events](images/event2.png)
+
+### All Events Display
+
+The complete event listing shows all upcoming local events organized by title, date, category, and description:
+
+![All Events List](images/event3.png)
+
+### Features:
+- **Search by Category**: Filter events using the search box
+- **Date Filtering**: Use the "Include Date" checkbox to filter by specific dates
+- **Recommendations**: View related events based on search history
+- **Aesthetic Display**: Color-coded interface with easy-to-read event details
+
+---
+
 ## Development Screenshots
 
 ### Main Application
