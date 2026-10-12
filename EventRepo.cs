@@ -30,22 +30,30 @@ namespace ST10389916_AAPD7112_POE
 
         static EventRepository()
         {
+            DateTime today = DateTime.Today;
+
             _events = new List<Event>
             {
-                new Event("Farmers Market", "Market", new DateTime(2025, 10, 20), "Local farmers selling fresh produce."),
-                new Event("Community Clean-Up", "Volunteer", new DateTime(2025, 10, 22), "Help clean up the neighborhood park."),
-                new Event("Art Exhibition", "Arts & Culture", new DateTime(2025, 10, 25), "Local artists showcase their work."),
-                new Event("Soccer Tournament", "Sports", new DateTime(2025, 11, 1), "Annual community soccer competition."),
-                new Event("Book Club Meeting", "Education", new DateTime(2025, 10, 28), "Discussion on the latest bestseller."),
-                new Event("Night Market", "Market", new DateTime(2025, 10, 20), "Evening event with food stalls and crafts."),
-                new Event("Charity Fun Run", "Sports", new DateTime(2025, 11, 1), "Fundraiser for local shelters."),
-                new Event("Coding Workshop", "Education", new DateTime(2025, 10, 28), "Beginner-friendly programming session."),
-                new Event("Park Tree Planting", "Volunteer", new DateTime(2025, 10, 22), "Join us to plant trees in the community park."),
-                new Event("Street Art Festival", "Arts & Culture", new DateTime(2025, 10, 25), "Murals, music, and local artists performing live."),
-                new Event("Food Fair", "Market", new DateTime(2025, 11, 5), "Taste dishes from around the world."),
-                new Event("Community Blood Drive", "Volunteer", new DateTime(2025, 11, 5), "Donate blood to save lives."),
-                new Event("Science Talk Series", "Education", new DateTime(2025, 11, 10), "Lecture by local scientists on sustainability."),
-                new Event("Local Band Night", "Arts & Culture", new DateTime(2025, 11, 10), "Showcasing up-and-coming local bands.")
+                new Event("Farmers Market", "Market", today, "Local farmers selling fresh produce."),
+                new Event("Community Clean-Up", "Volunteer", today.AddDays(2), "Help clean up the neighborhood park."),
+                new Event("Art Exhibition", "Arts & Culture", today.AddDays(5), "Local artists showcase their work."),
+                new Event("Soccer Tournament", "Sports", today.AddDays(10), "Annual community soccer competition."),
+                new Event("Book Club Meeting", "Education", today.AddDays(7), "Discussion on the latest bestseller."),
+                new Event("Night Market", "Market", today.AddDays(8), "Evening event with food stalls and crafts."),
+                new Event("Charity Fun Run", "Sports", today.AddDays(12), "Fundraiser for local shelters."),
+                new Event("Coding Workshop", "Education", today.AddDays(3), "Beginner-friendly programming session."),
+                new Event("Park Tree Planting", "Volunteer", today.AddDays(4), "Join us to plant trees in the community park."),
+                new Event("Street Art Festival", "Arts & Culture", today.AddDays(14), "Murals, music, and local artists performing live."),
+                new Event("Food Fair", "Market", today.AddDays(15), "Taste dishes from around the world."),
+                new Event("Community Blood Drive", "Volunteer", today.AddDays(11), "Donate blood to save lives."),
+                new Event("Science Talk Series", "Education", today.AddDays(18), "Lecture by local scientists on sustainability."),
+                new Event("Local Band Night", "Arts & Culture", today.AddDays(20), "Showcasing up-and-coming local bands."),
+                new Event("Winter Fest", "Market", today.AddDays(1), "Celebrate winter with local crafts and hot beverages."),
+                new Event("Yoga in the Park", "Sports", today.AddDays(6), "Free outdoor yoga session for all fitness levels."),
+                new Event("Film Screening", "Arts & Culture", today.AddDays(9), "Classic movie night under the stars."),
+                new Event("Tech Meetup", "Education", today.AddDays(13), "Connect with local tech enthusiasts and professionals."),
+                new Event("Community Garden Update", "Volunteer", today.AddDays(16), "Learn about spring planting and garden maintenance."),
+                new Event("Jazz Concert", "Arts & Culture", today.AddDays(19), "Evening jazz performance by local musicians.")
             };
 
             _categories = new HashSet<string>(_events.Select(e => e.Category), StringComparer.OrdinalIgnoreCase);

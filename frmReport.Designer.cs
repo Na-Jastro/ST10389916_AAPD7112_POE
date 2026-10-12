@@ -56,7 +56,7 @@
                 System.Drawing.GraphicsUnit.Point,
                 ((byte)(0))
             );
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(55, 71, 79);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(245, 124, 0);
             this.label1.Location = new System.Drawing.Point(35, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 19);
@@ -75,6 +75,7 @@
                 System.Drawing.GraphicsUnit.Point,
                 ((byte)(0))
             );
+            this.txtLocation.ForeColor = System.Drawing.Color.FromArgb(33, 33, 33);
             this.txtLocation.Location = new System.Drawing.Point(180, 28);
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.Size = new System.Drawing.Size(570, 25);
@@ -91,7 +92,7 @@
                 System.Drawing.GraphicsUnit.Point,
                 ((byte)(0))
             );
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(55, 71, 79);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(245, 124, 0);
             this.label2.Location = new System.Drawing.Point(35, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 19);
@@ -112,6 +113,7 @@
                 System.Drawing.GraphicsUnit.Point,
                 ((byte)(0))
             );
+            this.cmbCategory.ForeColor = System.Drawing.Color.FromArgb(33, 33, 33);
 
             this.cmbCategory.FormattingEnabled = true;
             this.cmbCategory.Location =
@@ -142,7 +144,7 @@
                 ((byte)(0))
             );
             this.label3.ForeColor =
-                System.Drawing.Color.FromArgb(55, 71, 79);
+                System.Drawing.Color.FromArgb(245, 124, 0);
 
             this.label3.Location =
                 new System.Drawing.Point(35, 128);
@@ -175,6 +177,8 @@
                     System.Drawing.GraphicsUnit.Point,
                     ((byte)(0))
                 );
+            this.rchDescription.ForeColor =
+                System.Drawing.Color.FromArgb(33, 33, 33);
 
             this.rchDescription.Location =
                 new System.Drawing.Point(180, 124);
@@ -253,7 +257,7 @@
                 );
 
             this.lblFile.ForeColor =
-                System.Drawing.Color.FromArgb(69, 90, 100);
+                System.Drawing.Color.FromArgb(245, 124, 0);
 
             this.lblFile.Location =
                 new System.Drawing.Point(180, 281);
@@ -399,7 +403,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor =
-                System.Drawing.Color.White;
+                System.Drawing.Color.FromArgb(255, 243, 224);
 
             this.groupBox1.Controls.Add(
                 this.lblFile
@@ -454,7 +458,7 @@
                 );
 
             this.groupBox1.ForeColor =
-                System.Drawing.Color.FromArgb(38, 50, 56);
+                System.Drawing.Color.FromArgb(245, 124, 0);
 
             this.groupBox1.Location =
                 new System.Drawing.Point(0, 6);
@@ -491,9 +495,9 @@
 
             this.BackColor =
                 System.Drawing.Color.FromArgb(
-                    245,
-                    247,
-                    250
+                    255,
+                    243,
+                    224
                 );
 
             this.ClientSize =

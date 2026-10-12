@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using MaterialSkin.Controls;
 
 namespace ST10389916_AAPD7112_POE
 {
-    public partial class EventForm : MaterialForm
+    public partial class EventForm : Form
     {
         private List<Event> allEvents; // all events
         private Queue<string> lastCategories; // memory of last 3 searches

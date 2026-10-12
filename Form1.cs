@@ -26,7 +26,9 @@ namespace ST10389916_AAPD7112_POE
 
         private void btn_Announcements_Click(object sender, EventArgs e)
         {
-           
+            EventForm frmEvent = new EventForm();
+            frmEvent.Show();
+            this.Hide();
         }
     }
 }
