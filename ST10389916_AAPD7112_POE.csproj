@@ -72,6 +72,12 @@
     <Compile Include="Issue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceRequest.cs" />
+    <Compile Include="ServiceRequestRepository.cs" />
+    <Compile Include="ServiceRequestStructures.cs" />
+    <Compile Include="ServiceStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="EventForm.resx">
       <DependentUpon>EventForm.cs</DependentUpon>
     </EmbeddedResource>

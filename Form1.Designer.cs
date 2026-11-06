@@ -85,6 +85,7 @@ namespace ST10389916_AAPD7112_POE
             this.btn_Status.TabIndex = 5;
             this.btn_Status.Text = "SERVICE REQUEST STATUS";
             this.btn_Status.UseVisualStyleBackColor = false;
+            this.btn_Status.Click += new System.EventHandler(this.btn_Status_Click);
 
             // frmMain
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

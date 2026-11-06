@@ -30,5 +30,12 @@ namespace ST10389916_AAPD7112_POE
             frmEvent.Show();
             this.Hide();
         }
+
+        private void btn_Status_Click(object sender, EventArgs e)
+        {
+            ServiceStatusForm serviceStatusForm = new ServiceStatusForm();
+            serviceStatusForm.Show();
+            this.Hide();
+        }
     }
 }
